@@ -1,0 +1,263 @@
+<Doctype html>
+
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="Diablo 3 Reaper of Souls">
+		<meta name="keywords" content="Diablo 3">
+		<meta name="author" content="Brian Steedley">
+		<title>Diablo 3</title>
+		<link rel ="stylesheet" href="./css/syle.css">
+		
+	<style>
+				body{
+		font-family: papyrus;
+		font-size:15px;
+		line-height:1.5;
+		padding:0;
+		margin:0;
+		background-color:#7A6E6E;
+	}
+	
+	.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+	}
+	
+	ul{
+		margin:0;
+		padding:0;
+	}
+	
+	.button_1{
+		height:30px;
+		background:red;
+		border:0;
+		padding-left:20px;
+		padding-right:20px;
+		color:#ffffff;
+	}
+	
+	header{
+		background:#000000;
+		color:gray;
+		padding-top:30px;
+		min-height:70px;
+		border-bottom:red 3px solid;
+	}
+	
+	header a{
+		color:blue;
+		text-decoration:none;
+		text-transform:uppercase;
+		font-size:16px;
+	}
+	
+	
+	header li{
+		float:left;
+		display:inline;
+		padding:0 20px 0 20px;
+	}
+	
+	header #branding{
+		float:left;
+	}
+	
+	header #branding h1{
+		float:right;
+		margin-top:10px;
+	}
+	
+	header nav{
+		float:right;
+		margin-top:10px;
+	}
+	
+	header .highlight, header .current a{
+		color:red;
+		font-weight:bold;
+	}
+	
+	header a:hover{
+		color:white;
+		font-weight:bold;
+	}
+	
+	#showcase{
+		min-height:400px;
+		background:url("./img/showcase.jpg") no-repeat 0;
+		background-size:100%;
+		text-align:center;
+		color:white;
+	}
+	
+	#showcase h1{
+		margin-top:0px;
+		font-size:30px;
+		margin-bottom:10px;
+	}
+	
+	#showcase p{
+		font-size:15px;
+	}
+	
+	#newsletter{
+		border-top:red 3px solid;
+		border-bottom:red 3px solid;
+		padding:15px;
+		color:blue;
+		background:black;
+	}
+	
+	#newsletter h1{
+		float:left;
+	}
+	
+	#newsletter button, .quote button{
+		display:block;
+		width:100%;
+	}
+	
+	#newsletter form{
+		float:right;
+		margin-top:15px;
+	}
+	
+	#newsletter input[type="email"]{
+		padding:4px;
+		height:25px;
+		width:250px;
+	}
+	
+	#boxes{
+		margin-top:20px;
+	}
+	
+	#boxes .box{
+		float:left;
+		text-align:center;
+		width:30%;
+		padding:10px;
+	}
+	
+	#boxes .box img{
+		width:300px;
+	}
+	
+	footer{
+		padding:20px;
+		margin-top:20px;
+		color:#ffffff;
+		background-color:black;
+		text-align:center;
+	}
+	
+	@media(max-width: 768px){
+		header #branding,
+		header nav,
+		header nav li,
+		#newsletter h1,
+		#newsletter form,
+		#boxes .box,
+		article #main-col,
+		aside#sidebar{
+			float:none;
+			text-align:center;
+			width:100%;
+		}
+		
+		header{
+			padding-bottom:20px;
+		}
+		
+		#showcase h1{
+			margin-top:40px;
+		}
+		
+		#newsletter button{
+			display:block;
+			width:100%;
+		}
+		
+		#newsletter form input[type="email"]{
+			width;100%;
+			margin-bottom:5px;
+		}
+	}
+	
+	
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="branding">
+					<h1><span class="highlight"> Diablo 3:</span> Reaper of Souls</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	
+		<section id="newsletter">
+			<div  class="container">
+				<h1> Subscribe</h1>
+				<form>
+					<input type="email" placeholder="Enter email please">
+					<button type="submit" class"button_1">
+				</form>
+			</div>
+		</section>
+		
+		<section id="main">
+			<div class="container">
+				<article id="main-col">
+					<h1 class="page-title" align="center">Classes</h1>
+				</article>
+			</div>
+			<h1><img src="./img/DH.GIF" height="200" width="200">Demon Hunter</h1>
+			<p>Demon hunters are relentless vigilantes who execute their infernal targets with an arsenal of ranged weapons. They crouch and take aim far from danger, relying on bows, deadly traps, and projectiles to swiftly bring an end to the creatures that haunt their world.
+				With sweeping blasts of shot, wide salvos of arrows and timed explosives at their disposal, demon hunters excel at devastating groups of foes who cluster together. Hunters’ pinpoint accuracy also allows them to deal with stronger monsters at a distance: they can snipe at key targets or fall back while snapping off kill shots at advancing foes.
+				However, demon hunters’ focus on ranged combat and limited melee-weapons training leave them in danger when they’re cornered or surrounded. Evasive skills like defensive rolls and jumps, as well as targeted attacks that hamstring and slow enemies, are as crucial to survival as any arrow in a hunter’s quiver.</p>
+			<p>Click here for<a href="DHSkills.html">Skills</a></p>
+			<h1><img src="./img/Monk.GIF" height="200" width="200">Monk</h1>
+			<p>Monks are sacred warriors who channel divine power through sheer force of will. Healing waves, mantras of protection and attacks empowered with holy might are all within their purview.
+				Skilled monks deliver rapid-fire attacks unarmed or with a variety of well-balanced weapons. In combat, they emphasize high maneuverability over staying power, darting in and out of melees and avoiding protracted slugfests.
+				Monks’ attacks are primarily melee-focused. They can eliminate single foes with extreme damage, or deliver short-range area-of-effect assaults with waves of elemental power that emanate from palm strikes or crescent kicks.</p>
+			<p>Click here for<a href="MonkSkills.html">Skills</a></p>
+			<h1><img src="./img/BARB.GIF" height="200" width="200">Barbarian</h1>
+			<p>Barbarians are savage wanderers who never flinch from close-quarters combat. Mighty ground stomps, leaping attacks and dual-wielded slashes leave a barbarian’s enemies dead in their boots and send any survivors fleeing for cover.
+				Thanks to their size and strength, barbarians can dominate a melee with nearly any combination of weapon and approach, though they tend towards massive and imposing weaponry. Barbarians are no strangers to the pains of battle, and often fare better in the midst of several opponents, taking and giving cuts, than when attempting to chase down single targets.
+				Barbarians’ attacks are primarily melee focused. Their quick weapon swings whittle down the number of weaker foes in seconds, while their slower, ground-shaking slams and stomps can send approaching hordes reeling and crack the armor of mightier foes.</p>
+			<p>Click here for<a href="BarbSkills.html">Skills</a></p>
+			<h1><img src="./img/CRUS.GIF" height="200" width="200">Crusader</h1>
+			<p>Crusaders are unbending champions of faith and law. These living fortresses use impenetrable plate and towering shields to wade through scores of foes, leaving demonic bodies smoldering in their wake.
+				he thick of battle is unforgiving, but crusaders rush in without hesitation, relying on holy magic and heavy armor to guarantee victory. Well-trained crusaders are adept at deflecting attacks entirely, often shrugging off massive blows that would fell lesser combatants. If pressed, they can sacrifice speed and mobility for pure staying power.
+				Bone-crunching flails and wicked shields are perfect for melee, but crusaders are hardly limited to extinguishing evil at close range. When one of these divinely empowered warriors joins battle, blazing fire and blinding light follow, smiting entire packs of enemies who dare to resist judgment.</p>
+			<p>Click here for<a href="CrusSkills.html">Skills</a></p>
+			<h1><img src="./img/WD.GIF" height="200" width="200">Witch Doctor</h1>
+			<p>Witch doctors are spiritual warriors who summon dead souls and crawling creatures to do their bidding. By surrounding themselves with conjured zombies and vermin, witch doctors are free to assault their enemies with exploding skulls, acrid poison clouds, and wasting curses.
+				The ability to infect, slow and terrify their enemies gives witch doctors unprecedented control over a battlefield. They can manipulate opposing attacks and movements with debuffs and crowd control spells, rendering enemies easy prey for hungry pets. Witch doctors can also lay down fields of fire and venom that slowly leech life from advancing foes.
+				Although some witch doctors avoid melee combat in favor of augmenting their pets and crippling their enemies from afar, they are also more than capable of slaying weakened foes with their own hands.</p>
+			<p>Click here for<a href="WDSkills.html">Skills</a></p>
+			<h1><img src="./img/WIZ.GIF" height="200" width="200">Wizard</h1>
+			<p>Wizards are renegade spellcasters who use their bodies as vessels for arcane energy, forsaking the more careful path favored by other magic users. They manipulate all manner of forces to disintegrate, burn, and freeze their foes, and they can control time and light to teleport, create powerful illusions, and deflect oncoming attacks.
+				Wizards grip wands and staves to focus their less potent magics, blasting at their enemies while gathering the energy or time necessary to destroy them in a dazzling hail of arcane might.
+				ith few exceptions, wizard attacks are conducted at a distance, away from danger. As living artillery, wizards are well suited to relying on long-range destructive power.</p>
+			<p>Click here for<a href="WizSkills.html">Skills</a></p>
+		</section>
+		
+		<footer>
+			<p> Diablo 3 Reaper of Souls, Copyright &copy; 2017</p>
+		</footer>		
+	</body>
+</html>
+	

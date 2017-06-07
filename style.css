@@ -1,0 +1,22 @@
+	body{
+		font-family: papyrus,;
+		font-size:15px;
+		line-height:1.5;
+		padding:0;
+		margin:0;
+		background-color:blue;
+	}
+	
+	.container{
+		width:80%;
+		margin:auto;
+		overflow:hidden;
+	}
+	
+	header{
+		background:red;
+		color:yellow;
+		padding-top:30px;
+		min-height:70px;
+		border-bottom:silver 3px solid:
+	}
